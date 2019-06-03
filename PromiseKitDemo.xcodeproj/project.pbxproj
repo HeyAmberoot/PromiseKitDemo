@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C29E0D664AE492836939DA7 /* Pods_PromiseKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4BF3B2D0B6ECBBE9878B57 /* Pods_PromiseKitDemo.framework */; };
 		8DA4A36122A4C6AC00E01B52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4A36022A4C6AC00E01B52 /* AppDelegate.swift */; };
 		8DA4A36322A4C6AC00E01B52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4A36222A4C6AC00E01B52 /* ViewController.swift */; };
 		8DA4A36622A4C6AC00E01B52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA4A36422A4C6AC00E01B52 /* Main.storyboard */; };
 		8DA4A36822A4C6B000E01B52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DA4A36722A4C6B000E01B52 /* Assets.xcassets */; };
 		8DA4A36B22A4C6B000E01B52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA4A36922A4C6B000E01B52 /* LaunchScreen.storyboard */; };
+		8DA4A37322A4F4FB00E01B52 /* PhotoAlbumUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4A37222A4F4FB00E01B52 /* PhotoAlbumUtil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34290184BB51E817CAB5E42B /* Pods-PromiseKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PromiseKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PromiseKitDemo/Pods-PromiseKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 		8DA4A35D22A4C6AC00E01B52 /* PromiseKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PromiseKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DA4A36022A4C6AC00E01B52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DA4A36222A4C6AC00E01B52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,9 @@
 		8DA4A36722A4C6B000E01B52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DA4A36A22A4C6B000E01B52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DA4A36C22A4C6B000E01B52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DA4A37222A4F4FB00E01B52 /* PhotoAlbumUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAlbumUtil.swift; sourceTree = "<group>"; };
+		BE4BF3B2D0B6ECBBE9878B57 /* Pods_PromiseKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PromiseKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEDEAE46F662CD6FE2A5282C /* Pods-PromiseKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PromiseKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PromiseKitDemo/Pods-PromiseKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C29E0D664AE492836939DA7 /* Pods_PromiseKitDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		795BBFDD3B0058CE827D1C18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE4BF3B2D0B6ECBBE9878B57 /* Pods_PromiseKitDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8DA4A35422A4C6AC00E01B52 = {
 			isa = PBXGroup;
 			children = (
 				8DA4A35F22A4C6AC00E01B52 /* PromiseKitDemo */,
 				8DA4A35E22A4C6AC00E01B52 /* Products */,
+				F3D9F2A8C38F837F2E6CCFC3 /* Pods */,
+				795BBFDD3B0058CE827D1C18 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +77,18 @@
 				8DA4A36722A4C6B000E01B52 /* Assets.xcassets */,
 				8DA4A36922A4C6B000E01B52 /* LaunchScreen.storyboard */,
 				8DA4A36C22A4C6B000E01B52 /* Info.plist */,
+				8DA4A37222A4F4FB00E01B52 /* PhotoAlbumUtil.swift */,
 			);
 			path = PromiseKitDemo;
+			sourceTree = "<group>";
+		};
+		F3D9F2A8C38F837F2E6CCFC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEDEAE46F662CD6FE2A5282C /* Pods-PromiseKitDemo.debug.xcconfig */,
+				34290184BB51E817CAB5E42B /* Pods-PromiseKitDemo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8DA4A36F22A4C6B000E01B52 /* Build configuration list for PBXNativeTarget "PromiseKitDemo" */;
 			buildPhases = (
+				8EAD65D986183314C3F20E7A /* [CP] Check Pods Manifest.lock */,
 				8DA4A35922A4C6AC00E01B52 /* Sources */,
 				8DA4A35A22A4C6AC00E01B52 /* Frameworks */,
 				8DA4A35B22A4C6AC00E01B52 /* Resources */,
+				1CF0D1C2D4AC8D825973968C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,11 +159,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1CF0D1C2D4AC8D825973968C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PromiseKitDemo/Pods-PromiseKitDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PromiseKitDemo/Pods-PromiseKitDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EAD65D986183314C3F20E7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PromiseKitDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8DA4A35922A4C6AC00E01B52 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DA4A37322A4F4FB00E01B52 /* PhotoAlbumUtil.swift in Sources */,
 				8DA4A36322A4C6AC00E01B52 /* ViewController.swift in Sources */,
 				8DA4A36122A4C6AC00E01B52 /* AppDelegate.swift in Sources */,
 			);
@@ -213,7 +290,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -268,7 +345,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -280,9 +357,11 @@
 		};
 		8DA4A37022A4C6B000E01B52 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEDEAE46F662CD6FE2A5282C /* Pods-PromiseKitDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6SG4D462ZQ;
 				INFOPLIST_FILE = PromiseKitDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,9 +376,11 @@
 		};
 		8DA4A37122A4C6B000E01B52 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34290184BB51E817CAB5E42B /* Pods-PromiseKitDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6SG4D462ZQ;
 				INFOPLIST_FILE = PromiseKitDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
