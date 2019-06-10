@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5C29E0D664AE492836939DA7 /* Pods_PromiseKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4BF3B2D0B6ECBBE9878B57 /* Pods_PromiseKitDemo.framework */; };
+		8D0D207B22A75E1400F462C9 /* BasicUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0D207A22A75E1400F462C9 /* BasicUse.swift */; };
 		8DA4A36122A4C6AC00E01B52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4A36022A4C6AC00E01B52 /* AppDelegate.swift */; };
 		8DA4A36322A4C6AC00E01B52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4A36222A4C6AC00E01B52 /* ViewController.swift */; };
 		8DA4A36622A4C6AC00E01B52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA4A36422A4C6AC00E01B52 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		34290184BB51E817CAB5E42B /* Pods-PromiseKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PromiseKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PromiseKitDemo/Pods-PromiseKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8D0D207A22A75E1400F462C9 /* BasicUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicUse.swift; sourceTree = "<group>"; };
 		8DA4A35D22A4C6AC00E01B52 /* PromiseKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PromiseKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DA4A36022A4C6AC00E01B52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DA4A36222A4C6AC00E01B52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 			children = (
 				8DA4A36022A4C6AC00E01B52 /* AppDelegate.swift */,
 				8DA4A36222A4C6AC00E01B52 /* ViewController.swift */,
+				8D0D207A22A75E1400F462C9 /* BasicUse.swift */,
 				8DA4A36422A4C6AC00E01B52 /* Main.storyboard */,
 				8DA4A36722A4C6B000E01B52 /* Assets.xcassets */,
 				8DA4A36922A4C6B000E01B52 /* LaunchScreen.storyboard */,
@@ -211,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D0D207B22A75E1400F462C9 /* BasicUse.swift in Sources */,
 				8DA4A37322A4F4FB00E01B52 /* PhotoAlbumUtil.swift in Sources */,
 				8DA4A36322A4C6AC00E01B52 /* ViewController.swift in Sources */,
 				8DA4A36122A4C6AC00E01B52 /* AppDelegate.swift in Sources */,
